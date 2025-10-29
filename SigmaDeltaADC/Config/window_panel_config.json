@@ -1,0 +1,28 @@
+{
+  "WindowInitSizeW": 1280,
+  "WindowInitSizeH": 720,
+  "WindowVsync": true,
+  "WindowMSAA": 4,
+  "ImGuiShaderVersion": "#version 330 core",
+  "ImGuiFonts": [
+    {
+      "FontFilePath": "Config/unispace_bd.ttf",
+      "FontFileSize": 70.0,
+      "FontUniqueName": "unispace"
+    },
+    {
+      "FontFilePath": "Config/jetbm_extra_bolditalic.ttf",
+      "FontFileSize": 72.0,
+      "FontUniqueName": "jetbm_extra"
+    },
+    {
+      "FontFilePath": "Config/wqdkwm.ttf",
+      "FontFileSize": 33.0,
+      "FontUniqueName": "wqdkwm"
+    }
+  ],
+  "ExtWinStyleBorder": [ 0.06, 0.0, 0.12, 1.0 ],
+  "ExtWinStyleColor": [ 0.06, 0.0, 0.12, 1.0 ],
+  "ExtWinStyleEnableBlur": false,
+  "ExtWinStartAnim": false
+}

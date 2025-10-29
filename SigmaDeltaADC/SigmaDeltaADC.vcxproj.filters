@@ -1,0 +1,146 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="源文件\SigmaDeltaADC">
+      <UniqueIdentifier>{9e0b16c0-9d5e-4fa4-b3c4-ee2f2dd33c93}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\SigmaDeltaADC\system_graphics">
+      <UniqueIdentifier>{be1f0774-5b4a-496d-980d-8f8fc4246dff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\SigmaDeltaADC\system_logger">
+      <UniqueIdentifier>{41e53460-39f1-4041-b901-3826299d49b2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="资源文件\imgui">
+      <UniqueIdentifier>{015e3a78-40ec-4b93-aa11-4f4c2c42099a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="资源文件\config">
+      <UniqueIdentifier>{443383ce-2bf9-4482-a949-ed2f0bce9480}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\SigmaDeltaADC\system_core">
+      <UniqueIdentifier>{bca70163-3afe-49e2-9c21-bbcbf71bb1e7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="资源文件\implot">
+      <UniqueIdentifier>{0fa167c3-6ff1-429a-8b7c-ab2457e8bbfb}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="SigmaDeltaADC.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SigmaDeltaADC\system_logger\psag_system_logger.cpp">
+      <Filter>源文件\SigmaDeltaADC\system_logger</Filter>
+    </ClCompile>
+    <ClCompile Include="SigmaDeltaADC\system_graphics\graphics_window_anim.cpp">
+      <Filter>源文件\SigmaDeltaADC\system_graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="SigmaDeltaADC\system_graphics\graphics_window_draw.cpp">
+      <Filter>源文件\SigmaDeltaADC\system_graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Library\imgui_library\imgui.cpp">
+      <Filter>资源文件\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="Library\imgui_library\imgui_demo.cpp">
+      <Filter>资源文件\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="Library\imgui_library\imgui_draw.cpp">
+      <Filter>资源文件\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="Library\imgui_library\imgui_impl_glfw.cpp">
+      <Filter>资源文件\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="Library\imgui_library\imgui_impl_opengl2.cpp">
+      <Filter>资源文件\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="Library\imgui_library\imgui_impl_opengl3.cpp">
+      <Filter>资源文件\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="Library\imgui_library\imgui_tables.cpp">
+      <Filter>资源文件\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="Library\imgui_library\imgui_widgets.cpp">
+      <Filter>资源文件\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="SigmaDeltaADC\system_core\sigma_delta_adc.cpp">
+      <Filter>源文件\SigmaDeltaADC\system_core</Filter>
+    </ClCompile>
+    <ClCompile Include="SigmaDeltaADC\system_core\sigma_delta_adc_params.cpp">
+      <Filter>源文件\SigmaDeltaADC\system_core</Filter>
+    </ClCompile>
+    <ClCompile Include="Library\implot_library\implot.cpp">
+      <Filter>资源文件\implot</Filter>
+    </ClCompile>
+    <ClCompile Include="Library\implot_library\implot_demo.cpp">
+      <Filter>资源文件\implot</Filter>
+    </ClCompile>
+    <ClCompile Include="Library\implot_library\implot_items.cpp">
+      <Filter>资源文件\implot</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="SigmaDeltaADC\system_logger\psag_system_logger.hpp">
+      <Filter>源文件\SigmaDeltaADC\system_logger</Filter>
+    </ClInclude>
+    <ClInclude Include="SigmaDeltaADC\system_graphics\graphics_window.h">
+      <Filter>源文件\SigmaDeltaADC\system_graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="SigmaDeltaADC\system_graphics\graphics_window_imgui.hpp">
+      <Filter>源文件\SigmaDeltaADC\system_graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Library\imgui_library\imconfig.h">
+      <Filter>资源文件\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="Library\imgui_library\imgui.h">
+      <Filter>资源文件\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="Library\imgui_library\imgui_impl_glfw.h">
+      <Filter>资源文件\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="Library\imgui_library\imgui_impl_opengl2.h">
+      <Filter>资源文件\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="Library\imgui_library\imgui_impl_opengl3.h">
+      <Filter>资源文件\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="Library\imgui_library\imgui_impl_opengl3_loader.h">
+      <Filter>资源文件\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="Library\imgui_library\imgui_internal.h">
+      <Filter>资源文件\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="Library\imgui_library\imstb_rectpack.h">
+      <Filter>资源文件\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="Library\imgui_library\imstb_textedit.h">
+      <Filter>资源文件\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="Library\imgui_library\imstb_truetype.h">
+      <Filter>资源文件\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="SigmaDeltaADC\system_core\sigma_delta_adc.hpp">
+      <Filter>源文件\SigmaDeltaADC\system_core</Filter>
+    </ClInclude>
+    <ClInclude Include="Library\implot_library\implot.h">
+      <Filter>资源文件\implot</Filter>
+    </ClInclude>
+    <ClInclude Include="Library\implot_library\implot_internal.h">
+      <Filter>资源文件\implot</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Config\window_panel_config.json">
+      <Filter>资源文件\config</Filter>
+    </None>
+  </ItemGroup>
+</Project>

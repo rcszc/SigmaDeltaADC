@@ -1,0 +1,8 @@
+[INFO]:
+Intuitive syntax. In languages such as Python, JSON feels like a first class data type. We used all the operator magic of modern C++ to achieve the same feeling in your code.
+
+[VERSION]: 
+JSON for Modern C++ version 3.11.2
+
+[URL]: 
+https://github.com/nlohmann/json
